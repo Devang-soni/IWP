@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example</title>
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Type Selector */
+        h1 {
+            color: #3498db;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: #27ae60;
+        }
+
+        /* ID Selector */
+        #special {
+            font-weight: bold;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            border: 2px solid #e74c3c;
+        }
+
+        /* Descendant Selector */
+        article p {
+            font-style: italic;
+        }
+
+        /* Child Selector */
+        nav > ul {
+            list-style-type: none;
+        }
+
+        /* Pseudo-class */
+        a:hover {
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+
+<h1>CSS Selectors Example</h1>
+
+<p class="highlight">This is a paragraph with the class "highlight".</p>
+
+<p id="special">This is a paragraph with the ID "special".</p>
+
+<input type="text" placeholder="Text Input">
+
+<article>
+    <p>This paragraph is inside an article and styled differently.</p>
+</article>
+
+<nav>
+    <ul>
+        <li><a href="#">Menu Item 1</a></li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
