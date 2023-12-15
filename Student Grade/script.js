@@ -5,7 +5,7 @@ function calculateGrade(event) {
     const resultDiv = document.getElementById('result');
     
     const marks = parseInt(marksInput.value);
-
+    
     let grade;
 
     switch (true) {
